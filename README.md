@@ -1,1 +1,1 @@
-# Dice-Game
+# dawgs-news

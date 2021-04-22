@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+justify-content: center;
+font-family:'Covered By Your Grace', cursive;
+font-weight: normal;
+font-size: 4rem;
+text-align: center;
+}
+
+h1 {
+  align-self: flex-start;
+  font-family:'Covered By Your Grace', cursive ;
+
+}
+
+section {
+  display: flex;
+ width: 100%;
+ align-items: stretch;
+ border: 3px solid black;
+
+}
+
+article {
+  padding: 10px;
+  border: 1px dashed black;
+}
+
+.story {
+  padding: 0 10px;
+}
+
+.w-quarter {
+  width: 25%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.w-tquarter {
+  width: 75%;
+}
+
+.article-title {
+
+font-style: italic;
+font-weight: normal;
+text-align: center;
+font-size: 1.5rem;
+
+}
+
+.article-img {
+  width: 100%;
+}
+.other-sections {
+  display: flex;
+  flex-direction:column;
+  align-items: stretch;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.site-section {
+  display: flex;
+  align-items: center;
+   flex: 1;
+}
+
+.politics {
+  background-color: skyblue;
+}
+
+.tech {
+background-color: lightgreen;}
+
+.local {
+  background-color: crimson;
+}
+
+.sports {
+  background-color: gold;
+}
+
+.travel {
+  background-color: purple;
+}
+
+
+.section-link {
+  text-decoration: none;
+font-size: 30px;
+padding-left: 25px;
+font-weight: bold;
+font-family: "Arial";
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.section-link:hover {
+  color:black;
+}
